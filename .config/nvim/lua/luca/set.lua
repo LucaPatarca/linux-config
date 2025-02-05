@@ -21,7 +21,7 @@ vim.opt.number = true
 -- hide original statusbar
 vim.opt.showmode=false
 vim.opt.showcmd=false
-vim.opt.cmdheight=1
+vim.opt.cmdheight=0
 
 vim.g.mapleader = " "
 

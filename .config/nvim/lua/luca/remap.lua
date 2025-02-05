@@ -35,7 +35,6 @@ vim.keymap.set("v", "e", "k")
 vim.keymap.set("v", "i", "l")
 
 vim.keymap.set("n", "j", "n")
-vim.keymap.set("n", "J", "N")
 vim.keymap.set("n", "k", "e")
 vim.keymap.set("n", "l", "i")
 vim.keymap.set("n", "L", "I")
