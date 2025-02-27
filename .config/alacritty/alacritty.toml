@@ -1,0 +1,10 @@
+[general]
+import = [
+  "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
+[window]
+decorations = "None"
+
+[font]
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular" }
