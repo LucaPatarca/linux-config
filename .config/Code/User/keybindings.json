@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "N",
+    "command": "list.focusDown",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "E",
+    "command": "list.focusUp",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "space I",
+    "command": "workbench.action.navigateRight",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "key": "\\",
+    "command": "workbench.action.closeSidebar",
+    "when": "sideBarVisible && !(inputFocus && sideBarFocus)"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.closeSidebar",
+    "when": "searchViewletVisible && inputFocus"
+  },
+  {
+    "key": "\\",
+    "command": "workbench.files.action.showActiveFileInExplorer",
+    "when": "!sideBarVisible && (resourceScheme == 'file' || !isInDiffEditor)"
+  },
+  {
+    "key": "\\",
+    "command": "workbench.view.explorer",
+    "when": "!sideBarVisible && (resourceScheme != 'file' || isInDiffEditor)"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "workbench.action.closePanel",
+    "when": "terminalFocus"
+  },
+]

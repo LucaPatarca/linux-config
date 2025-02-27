@@ -1,0 +1,41 @@
+{
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "vim.neovimConfigPath": "~/.config/nvim/init.lua",
+    "vim.neovimUseConfigFile": true,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vim.commandLineModeKeyBindings": [],
+    "vim.enableNeovim": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "cmake.showOptionsMovedNotification": false,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "window.menuBarVisibility": "toggle",
+    "update.mode": "none",
+    "vscode-neovim.compositeKeys": {},
+    "workbench.editor.showTabs": "single",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 1,
+    "breadcrumbs.showVariables": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "update.showReleaseNotes": false,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "editor.lineNumbers": "relative"
+}
