@@ -1,0 +1,9 @@
+asvetliakov.vscode-neovim
+dart-code.dart-code
+dart-code.flutter
+golang.go
+ms-vscode.vscode-serial-monitor
+ms-vsliveshare.vsliveshare
+platformio.platformio-ide
+redhat.vscode-xml
+vue.volar

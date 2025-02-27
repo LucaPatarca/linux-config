@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install Extensions",
+      "type": "shell",
+      "command": "xargs -n1 code --install-extension < ~/.config/Code/User/extensions.txt",
+      "problemMatcher": []
+    },
+    {
+      "label": "Save Extensions",
+      "type": "shell",
+      "command": "code --list-extensions > ~/.config/Code/User/extensions.txt",
+      "problemMatcher": []
+    }
+  ]
+}
+
