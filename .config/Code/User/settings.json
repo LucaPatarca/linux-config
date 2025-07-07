@@ -37,5 +37,7 @@
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
-    "editor.lineNumbers": "relative"
+    "workbench.view.showQuietly": {
+        "workbench.panel.output": true
+    }
 }

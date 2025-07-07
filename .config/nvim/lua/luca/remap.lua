@@ -10,6 +10,11 @@ if vim.g.vscode then
   vim.keymap.set("n", "<leader>q", function() vscode.action("workbench.action.closeActiveEditor") end)
   vim.keymap.set("n", "<leader>s", function() vscode.action("workbench.action.splitEditorDown") end)
   vim.keymap.set("n", "<leader>v", function() vscode.action("workbench.action.splitEditorRight") end)
+  -- vim.keymap.set('n', '<leader>ca', function() vim.lsp.buf.code_action() end)
+  vim.keymap.set('n', '<leader>rm', function() vscode.action('editor.action.rename') end)
+  vim.keymap.set('n', '<leader>fm', function() vscode.action('editor.action.formatDocument') end)
+  vim.keymap.set('n', '<leader>fs', function() vscode.action("workbench.action.terminal.searchWorkspace") end)
+  vim.keymap.set('n', '<leader>gf', function() vscode.action("workbench.action.quickOpen") end)
 else
   vim.keymap.set("n", "<leader>ff", vim.cmd.Ex)
   vim.keymap.set("n", "<leader>t", "<cmd>!alacritty --working-directory $(pwd)& <CR><CR>")
